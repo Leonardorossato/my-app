@@ -2,7 +2,7 @@ import { VendureConfig } from "@vendure/core";
 
 const IS_DEV = process.env.APP_ENV === 'dev';
 
-export const config: VendureConfig['apiOptions'] = {
+export const apiOptionsConfig: VendureConfig['apiOptions'] = {
     port: process.env.APP_PORT,
         adminApiPath: 'admin-api',
         shopApiPath: 'shop-api',
@@ -20,3 +20,5 @@ export const config: VendureConfig['apiOptions'] = {
             shopApiDebug: true,
         } : {}),
 }
+
+module.exports = apiOptionsConfig
