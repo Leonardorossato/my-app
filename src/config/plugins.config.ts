@@ -37,3 +37,5 @@ export const pluginsOptionsConfig: VendureConfig['plugins'] = [
         port: process.env.ADMIN_PORT,
     }),
 ]
+
+module.exports = pluginsOptionsConfig
