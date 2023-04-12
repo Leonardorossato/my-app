@@ -21,4 +21,3 @@ export const apiOptionsConfig: VendureConfig['apiOptions'] = {
         } : {}),
 }
 
-module.exports = apiOptionsConfig
