@@ -6,6 +6,8 @@ declare global {
     namespace NodeJS {
         interface ProcessEnv {
             APP_ENV: string;
+            APP_PORT: number;
+            ADMIN_PORT: number;
             COOKIE_SECRET: string;
             SUPERADMIN_USERNAME: string;
             SUPERADMIN_PASSWORD: string;
