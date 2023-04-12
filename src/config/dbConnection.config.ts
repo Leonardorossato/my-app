@@ -15,3 +15,5 @@ export const dbConnectionOptions: VendureConfig['dbConnectionOptions'] ={
     username: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
 }
+
+module.exports = dbConnectionOptions
