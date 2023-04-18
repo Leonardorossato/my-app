@@ -1,6 +1,6 @@
 import { PluginCommonModule, VendurePlugin } from "@vendure/core";
 import { OnApplicationBootstrap } from "@nestjs/common";
-import { InitEntity } from "src/entities/init.entity";
+import { InitEntity } from "../entities/init.entity";
 @VendurePlugin({
     entities: [InitEntity],
     imports: [PluginCommonModule],
