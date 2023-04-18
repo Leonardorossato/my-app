@@ -1,8 +1,8 @@
 import { PluginCommonModule, VendurePlugin } from "@vendure/core";
-import { Customer } from "../entities/customer.entity";
 import { OnApplicationBootstrap } from "@nestjs/common";
+import { InitEntity } from "src/entities/init.entity";
 @VendurePlugin({
-    entities: [Customer],
+    entities: [InitEntity],
     imports: [PluginCommonModule],
     providers: []
 })
